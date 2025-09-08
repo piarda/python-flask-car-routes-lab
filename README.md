@@ -1,5 +1,28 @@
 # Lab: Car Routes Lab
 
+This is a simple Flask application built as part of a technical lab. It simulates a backend service for a fictional car company, Flatiron Cars, with routing based on car models.
+
+## Features:
+
+This Flask app exposes two routes:
+/
+  -Method: GET
+  -Returns:
+    Welcome to Flatiron Cars
+
+/<model>
+  -Method: GET
+  -Behavior:
+    If <model> is in the list of existing car models:
+      Flatiron <model> is in our fleet!
+    Otherwise:
+      No models called <model> exists in our catalog
+
+# Existing Car Models:
+The app recognizes the following car models:
+['Beedle', 'Crossroads', 'M2', 'Panique']
+
+
 ---
 
 ## Overview
